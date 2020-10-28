@@ -7,11 +7,11 @@
     "nvm": "^0.0.4"
   },
   "devDependencies": {
-    "vuepress": "1.7.1"
+    "vuepress": "^1.7.1"
   },
   "scripts": {
     "test": "test_blogs",
-	"docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "repository": {
