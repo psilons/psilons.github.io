@@ -1,2 +1,0 @@
-# psilons.githum.io
-Blog
