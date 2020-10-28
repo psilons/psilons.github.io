@@ -1,5 +1,3 @@
----
-home: true
 
 # This is blog
 
