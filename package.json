@@ -1,26 +1,34 @@
 {
   "name": "psilons.github.io",
   "version": "1.0.0",
+  "private": true,
   "description": "Blogs",
+  "author": {
+    "name": "Psilons"
+  },
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "test": "test_blogs"
+  },
   "main": "index.js",
   "dependencies": {
     "nvm": "^0.0.4"
   },
   "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
     "vuepress": "^1.7.1"
   },
-  "scripts": {
-    "test": "test_blogs",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/psilons/psilons.github.io/tree/gh-page-source"
-  },
+  "_id": "psilons.github.io@1.0.0",
   "keywords": [
     "blogs"
   ],
-  "author": "Psilons",
-  "license": "MIT"
+  "license": "MIT",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psilons/psilons.github.io/tree/gh-page-source"
+  }
 }
